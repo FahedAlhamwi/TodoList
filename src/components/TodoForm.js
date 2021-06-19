@@ -1,5 +1,5 @@
 import React,{useState, useEffect, useRef} from 'react'
-
+//Create a function with hook for the form to allow focous on the input ,edit the value after adding it and update the changes
 function TodoForm(props) {
     const [input, setInput] = useState(props.edit ? props.edit.value : '');
     const inputRef =useRef(null)

@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import TodoForm from './TodoForm';
 import {RiCloseCircleLine} from 'react-icons/ri';
 import {TiEdit} from 'react-icons/ti';
-
+// Create a function with hook for the item (todo) allow us to add it comlete it remove it and update it then put it in a map (as many items after adding)
 function Todo({ todos, completeTodo, removeTodo, updateTodo}) {
     const [edit, setEdit] = useState({
         id: null,
