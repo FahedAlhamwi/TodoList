@@ -28,6 +28,14 @@ h1 {
   color: #fff;
   font-size: 24px;
 }
+h2 {
+  color: darkcyan;
+  font-style: italic;
+}
+.red{
+  color:rgb(245, 6, 6);
+  font-style: italic;
+}
 .complete {
   text-decoration: line-through;
   opacity: 0.4;

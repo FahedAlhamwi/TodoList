@@ -1,6 +1,6 @@
-import TodoForm from './TodoForm';
-import Todo from './Todo';
-import TodoList from './TodoList';
+import TodoForm from '../components/TodoForm';
+import Todo from '../components/Todo';
+import TodoList from '../components/TodoList';
 import React, {useState} from "react";
 
 function MainContainer() {
